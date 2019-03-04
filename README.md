@@ -1,4 +1,5 @@
-# Plotly overview
+# Plotly overview [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/franksalas/plotly_overview.git/master)
+
 Plot.ly  is a Canadian company that develops online data analytics and visualization tools. 
 They provide online graphing, analytics, and statistics tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
 
@@ -11,6 +12,7 @@ They have to make money, so in parallel with the open source library they provid
 ![](https://i.imgur.com/peWsC4B.png)
 
 25 charts for the free tear is not enough.
+
 ![poor](https://media.giphy.com/media/8OXXqeYqYonIY/giphy.gif)
 
 
@@ -18,17 +20,32 @@ They have to make money, so in parallel with the open source library they provid
 
 You dont need Chart Studio Cloud to take advantage of all the features of plotly. You can save, display any chart offline.
 
-##  setup
+##  Setup
+
+### easy way
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/franksalas/plotly_overview.git/master)   <-- click here
+
+### Other way
 
 Clone repo
 
 ```bash
-git clone 
+git clone  https://github.com/franksalas/plotly_overview.git
+
+cd plotly_overview
 ```
 
 Create enviroment from `.yml` file and  activate
 ```bash
 conda env create -f environment.yml
 
-source activate plotlt_env
+source activate plotly_env
 ```
+
+start jupyter
+```bash
+jupyter notebook
+```
+
+![thats it](https://media.giphy.com/media/l3vQY4uui06iabkli/giphy.gif)
