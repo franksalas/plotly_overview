@@ -4,21 +4,21 @@ Plot.ly  is a Canadian company that develops online data analytics and visualiza
 They provide online graphing, analytics, and statistics tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
 
 ## Why is it awesome?
-API library for every programming language, great way to display your data
+API library for every programming language, a great way to display your data
 
 ## Why is it not awesome?
-They have to make money, so in parallel with the open source library they provide [Chart Studio Cloud](https://plot.ly/products/cloud/) where you can easly save & share your plots & data.
+They have to make money, so in parallel with the open source library, they provide [Chart Studio Cloud](https://plot.ly/products/cloud/) where you can easily save & share your plots & data.
 
 ![](https://i.imgur.com/peWsC4B.png)
 
-25 charts for the free tear is not enough.
+Twenty-five charts for the free tear is not enough.
 
 ![poor](https://media.giphy.com/media/8OXXqeYqYonIY/giphy.gif)
 
 
 ## Why is it still awesome?
 
-You dont need Chart Studio Cloud to take advantage of all the features of plotly. You can save, display any chart offline.
+You don't need Chart Studio Cloud to take advantage of all the features of plotly. You can save, display any chart offline.
 
 ##  Setup
 
@@ -26,7 +26,7 @@ You dont need Chart Studio Cloud to take advantage of all the features of plotly
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/franksalas/plotly_overview.git/master)   <-- click here
 
-### Other way
+### Another way
 
 Clone repo
 
@@ -36,7 +36,7 @@ git clone  https://github.com/franksalas/plotly_overview.git
 cd plotly_overview
 ```
 
-Create enviroment from `.yml` file and  activate
+Create an environment from `.yml` file and  activate
 ```bash
 conda env create -f environment.yml
 
